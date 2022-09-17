@@ -4,11 +4,11 @@
     <formats>
         <format>tar</format>
     </formats>
-    <baseDirectory>${project.build.directory}</baseDirectory>
     <includeBaseDirectory>false</includeBaseDirectory>
     <fileSets>
         <fileSet>
-            <directory>${project.basedir}</directory>
+            <directory>${project.basedir}/resources</directory>
+            <outputDirectory>.</outputDirectory>
             <includes>
                 <include>**/*</include>
             </includes>
